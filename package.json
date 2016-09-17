@@ -1,0 +1,29 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "landing Starter",
+  "main": "server.js",
+  "author": "Ronny Freites",
+  "license": "ISC",
+  "scripts": {
+    "build": "gulp",
+    "start": "gulp & node server.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "page": "^1.7.1"
+  },
+  "devDependencies": {
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-refresh": "^1.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-uglifycss": "^1.0.6",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  }
+}
